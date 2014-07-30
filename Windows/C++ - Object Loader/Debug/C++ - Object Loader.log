@@ -1,0 +1,39 @@
+﻿Build started 22/07/2014 15:16:09.
+     1>Project "C:\Users\thatguylukuss\Desktop\GitHub\Formatted\Upload\C++ openGL - Object Loader\Windows\C++ - Object Loader\C++ - Object Loader.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\glut\include /I"C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\C++ - Object Loader\Debug\core" /I"C:\Users\thatguylukuss\Documents\Visual Studio 2012\Projects\C++ - Object Loader\C++ - Object Loader" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\thatguylukuss\desktop\github\formatted\upload\c++ opengl - object loader\windows\c++ - object loader\shapemap.h(74): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\thatguylukuss\desktop\github\formatted\upload\c++ opengl - object loader\windows\c++ - object loader\main.cpp(223): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\thatguylukuss\desktop\github\formatted\upload\c++ opengl - object loader\windows\c++ - object loader\main.cpp(227): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\thatguylukuss\desktop\github\formatted\upload\c++ opengl - object loader\windows\c++ - object loader\main.cpp(228): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\thatguylukuss\desktop\github\formatted\upload\c++ opengl - object loader\windows\c++ - object loader\main.cpp(229): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\thatguylukuss\desktop\github\formatted\upload\c++ opengl - object loader\windows\c++ - object loader\main.cpp(253): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\thatguylukuss\desktop\github\formatted\upload\c++ opengl - object loader\windows\c++ - object loader\main.cpp(255): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\thatguylukuss\desktop\github\formatted\upload\c++ opengl - object loader\windows\c++ - object loader\main.cpp(256): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\thatguylukuss\desktop\github\formatted\upload\c++ opengl - object loader\windows\c++ - object loader\main.cpp(263): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\thatguylukuss\desktop\github\formatted\upload\c++ opengl - object loader\windows\c++ - object loader\main.cpp(272): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\thatguylukuss\desktop\github\formatted\upload\c++ opengl - object loader\windows\c++ - object loader\main.cpp(273): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\thatguylukuss\desktop\github\formatted\upload\c++ opengl - object loader\windows\c++ - object loader\main.cpp(274): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\thatguylukuss\desktop\github\formatted\upload\c++ opengl - object loader\windows\c++ - object loader\main.cpp(275): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\thatguylukuss\desktop\github\formatted\upload\c++ opengl - object loader\windows\c++ - object loader\conversion.h(62): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\thatguylukuss\desktop\github\formatted\upload\c++ opengl - object loader\windows\c++ - object loader\main.cpp(125) : see reference to function template instantiation 'std::vector<_Ty> Conversion::ConvertGLfloatsToVectorArray<glm::vec4>(std::vector<glm::vec4>)' being compiled
+                 with
+                 [
+                     _Ty=Shape::Vector3
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\thatguylukuss\Desktop\GitHub\Formatted\Upload\C++ openGL - Object Loader\Windows\Debug\C++ - Object Loader.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\glut\lib freeglut.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\thatguylukuss\Desktop\GitHub\Formatted\Upload\C++ openGL - Object Loader\Windows\Debug\C++ - Object Loader.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\thatguylukuss\Desktop\GitHub\Formatted\Upload\C++ openGL - Object Loader\Windows\Debug\C++ - Object Loader.lib" /MACHINE:X86 Debug\BaseShape.obj
+         Debug\Circle.obj
+         Debug\main.obj
+         "Debug\Object Loader.obj"
+         Debug\Polygon.obj
+         Debug\Rectangle.obj
+         Debug\ShapeMap.obj
+         Debug\stdafx.obj
+         C++ - Object Loader.vcxproj -> C:\Users\thatguylukuss\Desktop\GitHub\Formatted\Upload\C++ openGL - Object Loader\Windows\Debug\C++ - Object Loader.exe
+     1>Done Building Project "C:\Users\thatguylukuss\Desktop\GitHub\Formatted\Upload\C++ openGL - Object Loader\Windows\C++ - Object Loader\C++ - Object Loader.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.48

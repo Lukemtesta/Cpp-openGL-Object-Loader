@@ -1,0 +1,12 @@
+# Blender v2.71 (sub 0) OBJ File: ''
+# www.blender.org
+mtllib cube.mtl
+o floor
+v 3.000000 -2.000000 -3.000000
+v 3.000000 -2.000000 3.000000
+v -3.000000 -2.000000 3.000000
+v -3.000000 -2.000000 -3.000000
+usemtl Material
+s off
+f 2 3 4
+f 1 2 4
